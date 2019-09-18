@@ -1,44 +1,61 @@
 body {
+  /* defines text size */
     font-size: 14px;
 }
 
 nav {
+  /* determines nav bar height, color and position*/
   background color: yellow;
   height: 100px;
   margin-top: -10px;
+  /*this keeps the nav fixed so that when you scroll it remains on the screen */
   position: fixed;
+  /* width of the nav is 100% of the page */
   width: 100%;
 }
 
 
 section {
+  /* margin is 0 on top and bottom and automatically determines the right and
+  left margins */
   margin: 0 auto;
+  /* determines width of each element relative to the web page*/
   width: 60%;
 }
 
 h1 {
+  /*determines font-family and size for the nav */
   font-family: sans-serif;
   font-size: 2em;
 }
 
 .example {
+  /*determines padding (top only) and alignment for the nav */
   padding-top: 30px;
   text-align: center;
 }
 
-h2 {
+h3 {
+  /* font size for the elements*/
   font-size: 1.3em;
 }
 
 .element {
+  /* determines background color for all elements with the name "element" */
   background-color: green;
+  /*determines the height, margin size and width of the background for each
+  element */
   height: 100px;
   margin: 10px;
   width: 100%;
 }
 
+
 .elementchanges {
+  /* change background color of last three elements to blue */
   background-color: blue;
+  /*determines the height, margin size and width of the background for each
+  element */
   height: 100px;
   margin: 10px;
   width: 100%;
